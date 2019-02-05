@@ -30,7 +30,12 @@ public class InchesToFeet {
         
         System.out.println(totalInches + " in feet is " + feet + " feet and "
                 + inches + " inches.");
-        
+        welcome();
+    }
+    
+    public static void welcome()
+    {
+        System.out.println("You're Welcome!");
     }
     
 }
